@@ -8,7 +8,7 @@ export const schema = [
         "max_length": 80
       },
       "help": "",
-      "width": 6
+      "width": 12
     },
    
     {
@@ -20,7 +20,7 @@ export const schema = [
         "max": 10
       },
       "help": "",
-      "width": 6
+      "width": 12
     },
     {
       "name": "category",
@@ -30,7 +30,7 @@ export const schema = [
         "options": ["Blog", "Legal", "News", "Case Study", "Job"]
       },
       "help": "",
-      "width": 6
+      "width": 8
     },
     {
       "name": "published_on",
@@ -41,7 +41,7 @@ export const schema = [
         "after": "today"
       },
       "help": "Published in News Paper",
-      "width": 6
+      "width": 4
     },
     {
       "name": "file",
@@ -51,7 +51,7 @@ export const schema = [
         "file_types": ["pdf", "docx"]
       },
       "help": "Attach a file (PDF or DOCX)",
-      "width": 6
+      "width": 8
     },
     {
       "name": "datetime",
@@ -62,7 +62,7 @@ export const schema = [
         "after": "today"
       },
       "help": "Specify date and time",
-      "width": 6
+      "width": 4
     },
     {
       "name": "description",
