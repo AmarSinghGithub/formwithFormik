@@ -5,4 +5,4 @@ const Form_Error = ({ name }) => {
   return <ErrorMessage name={name} component="div" className="text-red-500" />;
 };
 
-export default Form_Error;
+export default React.memo(Form_Error);

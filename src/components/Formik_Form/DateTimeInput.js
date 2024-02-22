@@ -21,4 +21,4 @@ const DateTimeInput = ({name,type, ...props }) => {
   );
 };
 
-export default DateTimeInput;
+export default React.memo(DateTimeInput);

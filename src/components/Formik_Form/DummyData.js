@@ -3,6 +3,7 @@ export const schema = [
       "name": "title",
       "type": "text",
       "label": "Title",
+      "placeholder":"Enter title here",
       "rules": {
         "min_length": 5,
         "max_length": 80
@@ -15,6 +16,8 @@ export const schema = [
       "name": "read_time",
       "type": "number",
       "label": "Read Time",
+      "placeholder":"Enter time",
+
       "rules": {
         "min": 1,
         "max": 10
@@ -26,6 +29,7 @@ export const schema = [
       "name": "category",
       "type": "select",
       "label": "Category",
+      "placeholder":"Enter discription here",
       "rules": {
         "options": ["Blog", "Legal", "News", "Case Study", "Job"]
       },
@@ -69,6 +73,7 @@ export const schema = [
       "type": "richtext",
       "as":"textarea",
       "rows":"4",
+      "placeholder":"Enter discription here",
       "label": "Description",
       "rules": {
         "max_length": 500

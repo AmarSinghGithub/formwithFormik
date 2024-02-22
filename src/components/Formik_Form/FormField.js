@@ -15,4 +15,4 @@ const FormField = ({ label, help, width, ...props }) => {
   );
 };
 
-export default FormField;
+export default React.memo(FormField);

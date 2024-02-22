@@ -11,4 +11,4 @@ const Form_Label = ({name,label}) => {
   );
 };
 
-export default Form_Label;
+export default React.memo(Form_Label);

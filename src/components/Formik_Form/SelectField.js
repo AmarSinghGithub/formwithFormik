@@ -9,9 +9,11 @@ const SelectField = ({ name, type, rules, ...props }) => {
         id={name}
         name={name}
         {...props}
+      
         className=" py-2 border  rounded px-4 w-full mt-2 bg-[#E2E2E2]"
       >
         {rules.options.map((value) => (
+        
           <option key={value} value={value}>
             {value}
           </option>
@@ -21,4 +23,4 @@ const SelectField = ({ name, type, rules, ...props }) => {
   );
 };
 
-export default SelectField;
+export default React.memo(SelectField);

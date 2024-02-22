@@ -12,4 +12,4 @@ const Form_Input_Fields = ({ ...props }) => {
   );
 };
 
-export default Form_Input_Fields;
+export default React.memo(Form_Input_Fields);

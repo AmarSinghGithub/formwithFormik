@@ -19,4 +19,4 @@ const FormFields = ({ ...props }) => {
   );
 };
 
-export default FormFields;
+export default React.memo(FormFields);

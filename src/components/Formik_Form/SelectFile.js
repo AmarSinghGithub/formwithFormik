@@ -45,4 +45,4 @@ SelectFile.propTypes = {
   name: PropTypes.string.isRequired,
 };
 
-export default SelectFile;
+export default React.memo(SelectFile);
